@@ -1,0 +1,32 @@
+.title{
+    background-color: #466332;
+    height:80px;
+    color:#fff;
+    font-family: 'Roboto Slab', serif;
+
+
+}
+
+.message{
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    from {color: #fff;}
+    to {color: green;}
+}
+
+.wrong{
+    -webkit-animation-name: wrong; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: wrong;
+    animation-duration: 1s;
+}
+
+@keyframes wrong {
+    from {color: #fff;}
+    to {color: red;}
+}

@@ -1,0 +1,23 @@
+.intro{
+    height: 400px;
+    background-image: url(./corner-field.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.titleIntro{
+    padding-top:90px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    font-size:60px;
+    color:#fff;
+}
+
+.titleInst{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color:#fff;
+}
